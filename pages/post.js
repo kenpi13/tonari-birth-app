@@ -12,17 +12,21 @@ export default function Post() {
   
     return (
         <div>
-      <img src={preview} />
-      <input
-        type="file"
-        name="photo"
-        onChange={handleChangeFile}
-      />
-       {''}
-  <Link href="/" passHref>
-   <Button variant="outlined">戻る</Button>
-  </Link>
-  {''}
-      </div>
+            <h1>画像を投稿するページだよん</h1>
+            <img src={preview} />
+            <input
+            type="file"
+            name="photo"
+            onChange={handleChangeFile}
+            />
+            {''}
+            <Link href="/gallery" passHref>
+            <Button variant="outlined">投稿する</Button>
+            </Link>
+            <Link href="/" passHref>
+              <Button variant="outlined">戻る</Button>
+            </Link>
+            {''}
+        </div>
     )
   }
