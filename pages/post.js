@@ -1,18 +1,16 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
-import { Button } from '@material-ui/core'
+// import Link from 'next/link'
+// import { Button } from '@material-ui/core'
+import MyDropZone from '../components/MyDropZone'
+import MyDropZones from '../components/MyDropZones'
 
 export default function Post() {
-    const [preview, setPreview] = useState('');
-  
-    const handleChangeFile = (e) => {
-      const { files } = e.target;
-      setPreview(window.URL.createObjectURL(files[0]));
-    };
-  
     return (
         <div>
             <h1>画像を投稿するページだよん</h1>
+            <MyDropZone/>
+            <MyDropZones/>
+            {/* <h1>だよん</h1>
             <img src={preview} />
             <input
             type="file"
@@ -26,7 +24,7 @@ export default function Post() {
             <Link href="/" passHref>
               <Button variant="outlined">戻る</Button>
             </Link>
-            {''}
+            {''} */}
         </div>
     )
   }

@@ -13,6 +13,9 @@ const firebaseConfig = {
     appId: process.env.APP_ID
 };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+//   firebase.initializeApp(firebaseConfig);
+  if (firebase.apps.length === 0) {
+    firebase.initializeApp(firebaseConfig);
+  }
   export const storage = firebase.storage();
   export default firebase;
