@@ -23,6 +23,10 @@ img{
 @tailwind base;
 @tailwind components;
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 /* .bg-blue-500 {
   height: 70px;
   width:50px;
