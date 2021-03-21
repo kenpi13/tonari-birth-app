@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -18,4 +18,31 @@ a {
 img{
   height: 400px;
   width: 400px;
+} */
+
+@tailwind base;
+@tailwind components;
+
+/* .bg-blue-500 {
+  height: 70px;
+  width:50px;
+  --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
 }
+
+.hero {
+  @apply py-20;
+}
+
+.title {
+  @apply text-5xl text-center;
+  color: #090;
+  line-height: 1.15;
+}
+
+.header__image{
+  width: 100vw;
+} */
+
+@tailwind utilities;

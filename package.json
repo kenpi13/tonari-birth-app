@@ -14,7 +14,12 @@
     "postcss": "^8.2.8",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-id-swiper": "^4.0.0",
+    "react-slick": "^0.28.1",
+    "swiper": "^6.5.0",
     "tailwindcss": "^2.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0"
+  }
 }
