@@ -11,9 +11,12 @@ export default function Home() {
   const tenji = 'みんなで作ったガーランドや感謝の気持ちを表すメッセージボードをつくり、となり1階を飾りつけます。2階では会員さんや銭湯ぐらしの交流の機会になるような展示も、ぜひ参加してね！'
   const nokisaki = '軒先から地域とのつながりを育みたい！\nので盛り沢山になりました。\n①小杉湯となりのひととなり展\n②工作キット「となりハウスの仲間たち」\n③軒先メッセージカード\n④お菓子の祝樽 鏡開き\n⑤軒先朝ごはん'
   return (
-    <div className={styles.container}>
+    // <div className={styles.container} >
+    <div className="w-screen">
       <Head>
       <title>小杉湯となり1周年</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"/>      
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:title" content="小杉湯となり1周年"/>
       <meta name="twitter:description" content="概要だよーん"/>
@@ -34,7 +37,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentWords.split('\n').map(str => {
@@ -43,10 +46,10 @@ export default function Home() {
       }
     </div>
       </section>
-      <section className="gray-background bg-gray-200	 w-screen	">
-      <div className="section__head__group pb-10">
-      <div className="text-center font-medium pt-14 text-xs md:text-2xl">お祝いしよう</div>
-        <div className="text-3xl font-bold pt-4 md:text-5xl md:leading-relaxed font-bold pt-4 text-center">
+      <section className="gray-background bg-gray-200">
+        <div className="section__head__group text-center">
+        <div className="text-center font-medium pt-14 text-xs md:text-2xl">お祝いしよう</div>
+        <div className="text-3xl md:text-5xl md:leading-relaxed font-bold pt-4">
       {
         //改行コードで分割し、ループ表示
         congraturationContents.split('\n').map(str => {
@@ -54,7 +57,8 @@ export default function Home() {
         })
       }
         </div>
-        <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl text-center">
+        </div>
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentMessages.split('\n').map(str => {
@@ -62,7 +66,8 @@ export default function Home() {
         })
       }
     </div>
-      </div>
+      </section>
+      <section className="gray-background bg-gray-200">
     <div className="content__sub__wrap px-5 md:px-80">
       <div className="content__sub__main__img ">
       <img className="w-vw" src="../static/001.jpg"/>
