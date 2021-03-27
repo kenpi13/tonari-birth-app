@@ -72,11 +72,19 @@ export default function Home() {
       <div className="content__sub__main__img ">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
-      <div className="content__sub__img__wrap flex-row  inline-flex pt-1">
-        <img className="w-1/4" src="../static/001.jpg"></img>
-        <img className="w-1/4" src="../static/002.jpg"></img>
-        <img className="w-1/4" src="../static/003.JPG"></img>
-        <img className="w-1/4" src="../static/004.JPG"></img>
+      <div className="content__sub__img__wrap pt-1 flex">
+        <div className="w-1/4">
+        <img className="w-full" src="../static/001.jpg"></img>
+        </div>
+        <div className="w-1/4">
+        <img className="w-full" src="../static/002.jpg"></img>
+        </div>
+        <div className="w-1/4">
+        <img className="w-full" src="../static/003.JPG"></img>
+        </div>
+        <div className="w-1/4">
+        <img className="w-full" src="../static/004.JPG"></img>
+        </div>
       </div>
       <div className="content__sub__setumei__wrap">
       <div className="content__sub__setumei__head">
@@ -96,7 +104,7 @@ export default function Home() {
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
-      <div className="content__sub__img__wrap flex-row inline-flex pt-1">
+      <div className="content__sub__img__wrap pt-1">
         <img className="w-1/4" src="../static/001.jpg"></img>
         <img className="w-1/4" src="../static/002.jpg"></img>
         <img className="w-1/4" src="../static/003.JPG"></img>
@@ -120,7 +128,7 @@ export default function Home() {
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
-      <div className="content__sub__img__wrap flex-row  inline-flex pt-1">
+      <div className="content__sub__img__wrap pt-1">
         <img className="w-1/4" src="../static/001.jpg"></img>
         <img className="w-1/4" src="../static/002.jpg"></img>
         <img className="w-1/4" src="../static/003.JPG"></img>
