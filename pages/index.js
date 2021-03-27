@@ -66,8 +66,8 @@ export default function Home() {
         })
       }
     </div>
-      </section>
-      <section className="gray-background bg-gray-200">
+    </section>
+    <section className="gray-background bg-gray-200">
     <div className="content__sub__wrap px-5 md:px-80">
       <div className="content__sub__main__img ">
       <img className="w-vw" src="../static/001.jpg"/>
@@ -117,7 +117,7 @@ export default function Home() {
         <div className="w-1/4">
         <img className="w-full" src="../static/004.JPG"></img>
         </div>
-      </div>
+    </div>
       <div className="content__sub__setumei__wrap">
       <div className="content__sub__setumei__head">
         <h1 className="text-xl font-bold pt-4 md:text-4xl md:leading-relaxed font-bold">展示</h1>
