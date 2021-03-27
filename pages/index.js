@@ -20,7 +20,12 @@ export default function Home() {
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:title" content="小杉湯となり1周年"/>
       <meta name="twitter:description" content="概要だよーん"/>
-      <meta name="twitter:image" content="../static/kosugiyutonari_kv@2x.png"/>
+      <meta name="twitter:image" content="../public/favicon.ico"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="小杉湯となり1周年"/>
+      <meta property="og:description" content="概要だよーん"/>
+      <meta property="og:site_name" content="1st"/>
+      <meta property="og:image" content="../public/favicon.ico"/>
       </Head>
       <section className="header__image w-screen">
         <img className="w-screen" src="../static/kosugiyutonari_kv@2x.png" alt="header-img"></img>
@@ -37,7 +42,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	lg:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentWords.split('\n').map(str => {
@@ -58,7 +63,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10 lg:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentMessages.split('\n').map(str => {
@@ -68,7 +73,7 @@ export default function Home() {
     </div>
     </section>
     <section className="gray-background bg-gray-200">
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img ">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
@@ -100,7 +105,7 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
@@ -132,7 +137,7 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
