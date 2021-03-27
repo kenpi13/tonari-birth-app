@@ -37,7 +37,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	lg:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentWords.split('\n').map(str => {
@@ -58,7 +58,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10 lg:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentMessages.split('\n').map(str => {
@@ -68,7 +68,7 @@ export default function Home() {
     </div>
     </section>
     <section className="gray-background bg-gray-200">
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img ">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
@@ -100,7 +100,7 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
@@ -132,7 +132,7 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
+    <div className="content__sub__wrap px-5 lg:px-80">
       <div className="content__sub__main__img">
       <img className="w-vw" src="../static/001.jpg"/>
     </div>
