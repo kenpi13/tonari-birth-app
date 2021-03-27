@@ -20,12 +20,12 @@ export default function Home() {
       <meta name="twitter:card" content="summary"/>
       <meta name="twitter:title" content="小杉湯となり1周年"/>
       <meta name="twitter:description" content="概要だよーん"/>
-      <meta name="twitter:image" content="../static/kosugiyutonari_kv@2x.png"/>
+      <meta name="twitter:image" content="../public/favicon.ico"/>
       <meta property="og:type" content="website"/>
       <meta property="og:title" content="小杉湯となり1周年"/>
       <meta property="og:description" content="概要だよーん"/>
       <meta property="og:site_name" content="1st"/>
-      <meta property="og:image" content="../static/kosugiyutonari_kv@2x.png"/>
+      <meta property="og:image" content="../public/favicon.ico"/>
       </Head>
       <section className="header__image w-screen">
         <img className="w-screen" src="../static/kosugiyutonari_kv@2x.png" alt="header-img"></img>
