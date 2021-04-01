@@ -1,6 +1,5 @@
-import styles from '../styles/Home.module.css';
 import Head from 'next/head';
-
+import CarouselComponent from '../components/carourcel.component';
 
 export default function Home() {
   const greetingHeadWords = '小杉湯となりは\n2021年3月16日で\n1周年を迎えました'
@@ -37,7 +36,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	xl:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentWords.split('\n').map(str => {
@@ -58,7 +57,7 @@ export default function Home() {
       }
         </div>
         </div>
-    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	md:px-96 md:leading-10 md:max-w-7xl mx-auto">
+    <div className="leading-6 text-xs md:text-lg font-normal pt-10 px-4 pb-10	xl:px-96 md:leading-10 md:max-w-7xl mx-auto">
     {
         //改行コードで分割し、ループ表示
         greetingContentMessages.split('\n').map(str => {
@@ -68,24 +67,8 @@ export default function Home() {
     </div>
     </section>
     <section className="gray-background bg-gray-200">
-    <div className="content__sub__wrap px-5 md:px-80">
-      <div className="content__sub__main__img ">
-      <img className="w-vw" src="../static/001.jpg"/>
-    </div>
-      <div className="content__sub__img__wrap pt-1 flex">
-        <div className="w-1/4">
-        <img className="w-full" src="../static/001.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/002.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/003.JPG"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/004.JPG"></img>
-        </div>
-      </div>
+    <div className="content__sub__wrap px-5 xl:px-80">
+    <CarouselComponent/>
       <div className="content__sub__setumei__wrap">
       <div className="content__sub__setumei__head">
         <h1 className="text-xl font-bold pt-4 md:text-4xl md:leading-relaxed font-bold">文集</h1>
@@ -100,24 +83,8 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
-      <div className="content__sub__main__img">
-      <img className="w-vw" src="../static/001.jpg"/>
-    </div>
-    <div className="content__sub__img__wrap pt-1 flex">
-        <div className="w-1/4">
-        <img className="w-full" src="../static/001.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/002.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/003.JPG"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/004.JPG"></img>
-        </div>
-    </div>
+    <div className="content__sub__wrap px-5 xl:px-80">
+    <CarouselComponent/>
       <div className="content__sub__setumei__wrap">
       <div className="content__sub__setumei__head">
         <h1 className="text-xl font-bold pt-4 md:text-4xl md:leading-relaxed font-bold">展示</h1>
@@ -132,24 +99,8 @@ export default function Home() {
       </div>
     </div>
     </div>
-    <div className="content__sub__wrap px-5 md:px-80">
-      <div className="content__sub__main__img">
-      <img className="w-vw" src="../static/001.jpg"/>
-    </div>
-    <div className="content__sub__img__wrap pt-1 flex">
-        <div className="w-1/4">
-        <img className="w-full" src="../static/001.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/002.jpg"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/003.JPG"></img>
-        </div>
-        <div className="w-1/4">
-        <img className="w-full" src="../static/004.JPG"></img>
-        </div>
-      </div>
+    <div className="content__sub__wrap px-5 xl:px-80">
+    <CarouselComponent/>
       <div className="content__sub__setumei__wrap">
       <div className="content__sub__setumei__head">
         <h1 className="text-xl font-bold pt-4 md:text-4xl md:leading-relaxed font-bold">軒先</h1>

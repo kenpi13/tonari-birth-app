@@ -27,6 +27,13 @@ img{
 body{
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+.thumbs-wrapper axis-vertical{
+  float: left;
+}
+.animated{
+  float: left;
+}
 /* .bg-blue-500 {
   height: 70px;
   width:50px;
@@ -34,6 +41,7 @@ body{
   background-color: #4299e1;
   background-color: rgba(66, 153, 225, var(--bg-opacity));
 }
+
 
 .hero {
   @apply py-20;
